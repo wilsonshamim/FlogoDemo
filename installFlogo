@@ -1,0 +1,23 @@
+docker run -it -p 3303:3303 flogo/flogo-docker:latest eula-accept
+
+once successfully installed you should see the screen like:
+
+
+2019-03-06T02:27:55.424Z - verbose: updateDB done.
+2019-03-06T02:27:55.424Z - verbose: updateDB done.
+2019-03-06T02:27:55.425Z - verbose: registerActivities success
+2019-03-06T02:27:55.426Z - verbose: registerTriggers success
+2019-03-06T02:27:55.450Z - info: start web server done.
+flogo-web::server::ready
+
+  ======================================================
+                 ___       __   __   __ TM
+                |__  |    /  \ / _` /  \
+                |    |___ \__/ \__| \__/
+
+   [success] open http://localhost:3303 in your browser
+  ======================================================
+  
+  from the UI type: http://localhost:3303
+  
+  
